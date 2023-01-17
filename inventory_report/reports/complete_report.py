@@ -12,7 +12,7 @@ class CompleteReport:
         companies_amount = ""
         for company, amount in company_products:
             companies_amount += f"- {company}: {amount}\n"
-        
+
         return (
             f"{simple_report}\n"
             f"Produtos estocados por empresa:\n"
