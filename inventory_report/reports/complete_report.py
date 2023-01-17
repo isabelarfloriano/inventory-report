@@ -16,5 +16,5 @@ class CompleteReport:
         return (
             f"{simple_report}\n"
             f"Produtos estocados por empresa:\n"
-            f"{companies_amount}\n"
+            f"{companies_amount}"
         )
