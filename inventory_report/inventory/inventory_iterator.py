@@ -13,4 +13,4 @@ class InventoryIterator(Iterator):
             raise StopIteration()
 
         self.index += 1
-        return InventoryIterator(self.data)
+        return result
