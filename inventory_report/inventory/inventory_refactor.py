@@ -1,3 +1,4 @@
+from inventory_report.inventory.inventory_iterator import InventoryIterator
 from inventory_report.reports.simple_report import SimpleReport
 from inventory_report.reports.complete_report import CompleteReport
 
@@ -20,3 +21,6 @@ class InventoryRefactor:
             return SimpleReport.generate(products_file)
         elif report_type == "completo":
             return CompleteReport.generate(products_file)
+
+    def __iter__(self):
+        return InventoryIterator(self.data)
