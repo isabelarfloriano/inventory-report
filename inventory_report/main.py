@@ -26,3 +26,7 @@ def main():
     report = inventory.import_data(path, report_type)
 
     print(report, end="")
+
+
+if __name__ == "__main__":
+    main()
