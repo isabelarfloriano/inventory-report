@@ -141,4 +141,26 @@ Projeto desenvolvido em Python, princípios da Programação Orientada a Objetos
        </li>
     </ul>	
 </details>
-
+<details>
+  <summary><strong>Detalhes sobre Classes Desenvolvidos</strong></summary><br />
+  <p>inventory_report/reports/simple_report.py</p>
+    <ul>
+      <li>Classe para gerar a versão simplificada do relatório</li>
+    </ul>	
+  <p>inventory_report/reports/complete_report.py</p>
+    <ul>
+      <li>Classe para gerar a versão completa do relatório	inventory_report/reports/complete_report.py</li>
+    </ul>
+  <p>inventory_report/inventory/inventory.py</p>
+    <ul>
+      <li>Classe para gerar os relatório a partir de arquivos</li>
+    </ul>
+  <p>inventory_report/importer/importer.py</p>
+    <ul>
+      <li>Classe abstrata para aplicar o padrão de projeto Strategy</li>
+    </ul>
+  <p>inventory_report/inventory/inventory_iterator.py</p>
+    <ul>
+      <li>Refatoração da classe Inventory para aplicar o padrão de projeto Iterator</li>
+    </ul>
+</details>
