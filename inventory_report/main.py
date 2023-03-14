@@ -7,8 +7,7 @@ from inventory_report.inventory.inventory_refactor import InventoryRefactor
 
 def main():
     if len(sys.argv) < 3:
-        sys.stderr.write("Verifique os argumentos\n")
-        return
+        return sys.stderr.write("Verifique os argumentos\n")
 
     path = sys.argv[1]
     report_type = sys.argv[2]
@@ -26,4 +25,4 @@ def main():
     inventory = InventoryRefactor(importer)
     report = inventory.import_data(path, report_type)
 
-    print(report)
+    print(report, end="")
