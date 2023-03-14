@@ -45,3 +45,56 @@ Projeto desenvolvido em Python, princípios da Programação Orientada a Objetos
     </li>
   </ol>
 </details>
+<details>
+  <summary><strong>Estrutura do Projeto</strong></summary><br />
+
+  ```
+.
+├── inventory_report
+│   ├── data
+│   │   ├── 🔸inventory.csv
+│   │   ├── 🔸inventory.json
+│   │   └── 🔸inventory.xml
+│   ├── importer
+│   │   ├── 🔹csv_importer.py
+│   │   ├── 🔹importer.py
+│   │   ├── 🔹json_importer.py
+│   │   └── 🔹xml_importer.py
+│   ├── inventory
+│   │   ├── 🔹inventory_iterator.py
+│   │   ├── 🔹inventory_refactor.py
+│   │   └── 🔹inventory.py
+│   │   └── 🔸product.py
+│   ├── reports
+│   │   ├── 🔸colored_report.py
+│   │   ├── 🔹complete_report.py
+│   │   └── 🔹simple_report.py
+│   └── 🔹main.py
+└── tests
+│   ├── factories
+│   │   ├── 🔸__init__.py
+│   │   └── 🔸product_factory.py
+│   ├── product
+│   │   ├── 🔸__init__.py
+│   │   └── 🔹test_product.py
+│   ├── product_report
+│   │   ├── 🔸__init__.py
+│   │   └── 🔹test_product_report.py
+│   ├── report_decorator
+│   │   ├── 🔸__init__.py
+│   │   └── 🔹test_report_decorator.py
+│   └── 🔸__init__.py
+├── 🔹dev-requirements.txt
+├── 🔸docker-compose.yml
+├── 🔸Dockerfile
+├── 🔸pyproject.toml
+├── 🔹README.md
+├── 🔸requirements.txt
+├── 🔸setup.cfg
+└── 🔸setup.py
+  
+    Legenda:
+  🔸Arquivos de propriedade intelectual da Trybe
+  🔹Arquivos desenvolvidos por mim
+  ```
+</details>
