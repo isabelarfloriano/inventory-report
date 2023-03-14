@@ -98,3 +98,47 @@ Projeto desenvolvido em Python, princípios da Programação Orientada a Objetos
   🔹Arquivos desenvolvidos por mim
   ```
 </details>
+<details>
+  <summary><strong>Detalhes sobre Testes Desenvolvidos</strong></summary><br />
+  <p>tests/product/test_product.py</p>
+    <ul>
+      <li>Implementação dos testes para a classe Product</li>
+      <li>Verificao correto preenchimento dos seguintes atributos:</li>
+            <ul>
+                 <li>id (int)</li>
+                 <li>nome_da_empresa (string)</li>
+                 <li>nome_do_produto (string)</li>
+                 <li>data_de_fabricacao (string)</li>
+                 <li>data_de_validade (string)</li>
+                 <li>numero_de_serie (string)</li>
+                 <li>instrucoes_de_armazenamento (string)</li>
+             </ul>
+      <li>Garante a criação de um novo produto com todos os atributos corretamente preenchidos.</li>
+    </ul>	
+  <p>tests/product_report/test_product_report.py</p>
+    <ul>
+      <li>Implementação dos testes para a a criação do relatório presente na classe Product</li>
+      <li>Garante a formulação de uma frase construída com as informações do produto, que será muito útil para etiquetarmos o estoque.</li>
+      <li>Exemplo da frase:</li>
+            <ul>
+                 <li>O produto `farinha` fabricado em `01-05-2021` por `Farinini` com validade até `02-06-2023` precisa ser armazenado `ao abrigo de luz`.</li>
+             </ul>
+    </ul>
+  <p>tests/report_decorator/test_report_decorator.py</p>
+    <ul>
+      <li>Implementação dos testes para a classe ColoredReport</li>
+      <li>Garante o retorno do relatório devidamente colorido:
+            <ul>
+                 <li>🟩 Verde:</li>
+                      <ul>
+                          <li>"Data de fabricação mais antiga:"</li>
+                          <li>"Data de validade mais próxima:"</li>
+                          <li>"Empresa com mais produtos:"</li>
+                      </ul>
+                 <li>🟦 Azul: As datas</li>
+                 <li>🟥 Vermelho: Nome da empresa com mais produtos</li>
+             </ul>
+       </li>
+    </ul>	
+</details>
+
